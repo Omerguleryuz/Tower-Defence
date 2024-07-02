@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2248502511983583903
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 32771665163277277, guid: 99529184cc37c56469340578f2b1db19,
+        type: 3}
+      propertyPath: m_Name
+      value: Gun Tower
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790930132221449983, guid: 99529184cc37c56469340578f2b1db19,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031471523010126355, guid: 99529184cc37c56469340578f2b1db19,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031471523010126355, guid: 99529184cc37c56469340578f2b1db19,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031471523010126355, guid: 99529184cc37c56469340578f2b1db19,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031471523010126355, guid: 99529184cc37c56469340578f2b1db19,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031471523010126355, guid: 99529184cc37c56469340578f2b1db19,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031471523010126355, guid: 99529184cc37c56469340578f2b1db19,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031471523010126355, guid: 99529184cc37c56469340578f2b1db19,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031471523010126355, guid: 99529184cc37c56469340578f2b1db19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031471523010126355, guid: 99529184cc37c56469340578f2b1db19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031471523010126355, guid: 99529184cc37c56469340578f2b1db19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3094394919242997488, guid: 99529184cc37c56469340578f2b1db19, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 32771665163277277, guid: 99529184cc37c56469340578f2b1db19,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3163888008734183696}
+  m_SourcePrefab: {fileID: 100100000, guid: 99529184cc37c56469340578f2b1db19, type: 3}
+--- !u!1 &2251840190599115074 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 32771665163277277, guid: 99529184cc37c56469340578f2b1db19,
+    type: 3}
+  m_PrefabInstance: {fileID: 2248502511983583903}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3163888008734183696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2251840190599115074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 355184fb5e8dc8e4aba39efedb9f5727, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 1687875458570516883, guid: 76c95566353030747af90d423b9f6197,
+    type: 3}
+  towerRange: 10
+  timeBetweenAttacks: 1
+  bulletSpawnTransform: {fileID: 4686685796845270112}
+--- !u!4 &4686685796845270112 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6790930132221449983, guid: 99529184cc37c56469340578f2b1db19,
+    type: 3}
+  m_PrefabInstance: {fileID: 2248502511983583903}
+  m_PrefabAsset: {fileID: 0}

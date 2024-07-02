@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2761981110677167339
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 32771665163277277, guid: 99529184cc37c56469340578f2b1db19,
+        type: 3}
+      propertyPath: m_Name
+      value: Rocket Tower
+      objectReference: {fileID: 0}
+    - target: {fileID: 6790930132221449983, guid: 99529184cc37c56469340578f2b1db19,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031471523010126355, guid: 99529184cc37c56469340578f2b1db19,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031471523010126355, guid: 99529184cc37c56469340578f2b1db19,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031471523010126355, guid: 99529184cc37c56469340578f2b1db19,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031471523010126355, guid: 99529184cc37c56469340578f2b1db19,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031471523010126355, guid: 99529184cc37c56469340578f2b1db19,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031471523010126355, guid: 99529184cc37c56469340578f2b1db19,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031471523010126355, guid: 99529184cc37c56469340578f2b1db19,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031471523010126355, guid: 99529184cc37c56469340578f2b1db19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031471523010126355, guid: 99529184cc37c56469340578f2b1db19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7031471523010126355, guid: 99529184cc37c56469340578f2b1db19,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8792038715889064542, guid: 99529184cc37c56469340578f2b1db19,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7cee20542caa7234e854af354b7e8d26, type: 2}
+    m_RemovedComponents:
+    - {fileID: 3094394919242997488, guid: 99529184cc37c56469340578f2b1db19, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 32771665163277277, guid: 99529184cc37c56469340578f2b1db19,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2152474112763289053}
+  m_SourcePrefab: {fileID: 100100000, guid: 99529184cc37c56469340578f2b1db19, type: 3}
+--- !u!1 &2747453643178446646 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 32771665163277277, guid: 99529184cc37c56469340578f2b1db19,
+    type: 3}
+  m_PrefabInstance: {fileID: 2761981110677167339}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2152474112763289053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2747453643178446646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6869bfd67de796140b82d8b68afd780b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 3542244307701527667, guid: 679b17263cae23540ac5db4123f0f0f1,
+    type: 3}
+  towerRange: 13
+  timeBetweenAttacks: 0.75
+  bulletSpawnTransform: {fileID: 8676956360846215700}
+--- !u!4 &8676956360846215700 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6790930132221449983, guid: 99529184cc37c56469340578f2b1db19,
+    type: 3}
+  m_PrefabInstance: {fileID: 2761981110677167339}
+  m_PrefabAsset: {fileID: 0}
