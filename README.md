@@ -3,6 +3,8 @@
 Hello,
 I made a simple tower defence project.
 There are three types of towers(gun, rocket, bombard) and enemies(small, medium, big)
+The game is played through clicking on building towers by spending gold just like any other tower defence game. Tower upgrades are not included. I tried to keep the 
+project simple like a template. Upgrades, different enemies, and levels could be added. I worked more on the mechanic itself.
 There is only one level which can be increased by adding more scriptable objects where you can specify the numbers and types of enemies and determine the difficulty level.
 
 ## Video
