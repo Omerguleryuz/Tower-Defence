@@ -8,9 +8,9 @@ There is only one level which can be increased by adding more scriptable objects
 
 ## Video
 
-[![Proje Videosu](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
+[![Proje Videosu](https://youtu.be/9XVa4o4on_8)
 
-> Video linki: [YouTube'da İzle](https://www.youtube.com/watch?v=VIDEO_ID)
+> Video linki: [YouTube'da İzle](https://youtu.be/9XVa4o4on_8)
 
 ## Screenshots
 
