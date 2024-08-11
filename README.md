@@ -5,12 +5,9 @@ I made a simple tower defence project.
 There are three types of towers(gun, rocket, bombard) and enemies(small, medium, big)
 There is only one level which can be increased by adding more scriptable objects where you can specify the numbers and types of enemies and determine the difficulty level.
 
-
 ## Video
 
-[![Proje Videosu](https://youtu.be/9XVa4o4on_8)
-
-> Video linki: [YouTube'da İzle](https://youtu.be/9XVa4o4on_8)
+> Video link: [YouTube'da İzle](https://youtu.be/9XVa4o4on_8)
 
 ## Screenshots
 
